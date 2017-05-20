@@ -1,11 +1,13 @@
 {
-  "name": "test_web_app",
+  "name": "cchomework5",
   "version": "1.0.0",
   "description": "My test web app",
   "main": "app.js",
+  "engines": {
+  	"node": ">=6.10.0"
+  },
   "scripts": {
 	"start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cipian Andrei",
   "license": "ISC",
