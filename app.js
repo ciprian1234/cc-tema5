@@ -10,7 +10,7 @@ app.set('views', __dirname+'/public');
 app.use(express.static('public'));
 
 
-var server = app.listen(80, function(){
+var server = app.listen(process.env.PORT || 80, function(){
 	var host = server.address().address;
 	var port = server.address().port;
 	console.log("Web app listening at http://%s:%s", host, port);
