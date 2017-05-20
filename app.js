@@ -18,5 +18,5 @@ var server = app.listen(process.env.PORT || 80, function(){
 
 app.get('/', function(req, res){
 	res.render('index');
-	console.log(req);
+	console.log("<Client arrived>}}}");
 });
