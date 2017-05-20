@@ -7,7 +7,7 @@
   	"node": ">=6.10.0"
   },
   "scripts": {
-	"start": "node app.js",
+	"start": "node app.js"
   },
   "author": "Cipian Andrei",
   "license": "ISC",
