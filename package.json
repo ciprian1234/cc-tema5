@@ -1,19 +1,22 @@
 {
-  "name": "cchomework5",
+  "name": "mean-webapp",
   "version": "1.0.0",
-  "description": "My test web app",
+  "description": "Mean stack authentification web app",
   "main": "app.js",
-  "engines": {
-  	"node": ">=6.10.0"
-  },
   "scripts": {
-	"start": "node app.js"
+	"start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Cipian Andrei",
+  "author": "Ciprian Andrei",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
+  "dependencies":{
+  	"express":"*",
+  	"mongoose":"*",
+  	"bcryptjs":"*",
+  	"cors":"*",
+  	"jsonwebtoken":"*",
+  	"body-parser":"*",
+  	"passport":"*",
+  	"passport-jwt":"*"
   }
 }
