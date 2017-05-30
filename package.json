@@ -1,11 +1,13 @@
 {
-  "name": "mean-webapp",
+  "name": "cchomework5",
   "version": "1.0.0",
-  "description": "Mean stack authentification web app",
+  "description": "My test web app",
   "main": "app.js",
+  "engines": {
+     	"node": ">=6.10.0"
+  },
   "scripts": {
-	"start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	   "start": "node app.js"
   },
   "author": "Ciprian Andrei",
   "license": "ISC",
